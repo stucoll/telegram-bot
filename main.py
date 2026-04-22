@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Получаем токен из переменных окружения
-BOT_TOKEN = os.getenv("8772403466:AAGn0Aoz2NMd0XAWrMiRLCzzHdeZSlHptaI")
+BOT_TOKEN = os.getenv("8772403466:AAGw_ymwPRqdzWCjOwp4C3FXyQTuhFSTn7s")
 ADMIN_CHAT_ID = os.getenv("-5121236231", "")
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
